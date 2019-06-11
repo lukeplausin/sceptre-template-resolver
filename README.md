@@ -23,21 +23,21 @@ sceptre_user_data:
 
 In your `scripts/dynamic_user_data.sh.j2` file:
 ```bash
-{% for folder in sceptre_user_data.folders %}
-echo "Creating {{ folder }}"
-mkdir {{ folder }}
+{% for directory in sceptre_user_data.instance_directories %}
+echo "Creating directory {{ directory }}"
+mkdir {{ directory }}
 {% endfor %}
 ```
 
 In your actual deployment:
 ```bash
-echo "Creating home"
+echo "Creating directory home"
 mkdir home
-echo "Creating games"
+echo "Creating directory games"
 mkdir games
-echo "Creating templates"
+echo "Creating directory templates"
 mkdir templates
-echo "Creating etc"
+echo "Creating directory etc"
 mkdir etc
 ```
 
