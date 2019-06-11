@@ -1,7 +1,7 @@
 # Sceptre Template Resolver
 A resolver of templates for Sceptre
 
-## What is Sceptre
+## What is Sceptre?
 
 Sceptre is a template deployment engine for AWS cloudformation. It can greatly increase productivity in projects which are spread across multiple cloudformation templates.
 
