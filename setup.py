@@ -11,9 +11,9 @@ install_requirements = [
 
 setup(
     name='sceptre-template-resolver',
-    version="1.0.1",
+    version="1.0.2",
     description="A Sceptre resolver to resolve template files.",
-    py_modules=['TemplateResolver'],
+    py_modules=['template_resolver'],
     long_description=readme,
     long_description_content_type="text/markdown",
     author="luke.plausin",
