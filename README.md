@@ -5,7 +5,14 @@ A resolver of templates for Sceptre
 
 Sceptre is a template deployment engine for AWS cloudformation. It can greatly increase productivity in projects which are spread across multiple cloudformation templates.
 
-[https://github.com/cloudreach/sceptre](Sceptre)
+[Sceptre Repository](https://github.com/cloudreach/sceptre)
+[Sceptre Documentation](https://sceptre.cloudreach.com/latest/docs/get_started.html)
+
+## Install this resolver
+
+To install this resolver, simply run the following command:
+
+`pip install git+https://github.com/lukeplausin/sceptre-template-resolver.git`
 
 ## What can this resolver do?
 
