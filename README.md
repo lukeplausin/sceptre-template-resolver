@@ -59,4 +59,6 @@ This resolver is based on the Sceptre `template` object. That means that it can 
 
 Unlike the standard `template` object, this resolver does not assume that your template will be in the `templates` directory.
 
+If you use this resolver to resolve a key within the `sceptre_user_data` block of your template, then any references to this key within your template will resolve to a `None` object. This is intentional, to avoid circular dependencies.
+
 Please remember that your `template` file inputs must follow the same rules as regular Sceptre templates. This means they must have a `.j2`, `.yaml` or `.py` extension.
